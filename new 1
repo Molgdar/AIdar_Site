@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+<head>
+    <title>Таймер Онлайн | Простой, со звуком | Обратный отсчет времени бесплатно</title>
+    <meta name="description" content="Простой онлайн таймер поможет засечь время в любой жизненной ситуации. Просто и бесплатно. По окончании отсчета прозвучит звуковой сигнал, который вы не пропустите, главное не забудьте включить звук в колонках. При желании, звук можно отключить. Подходит для спорта, соревнований, кулинарии и многих других вещей" />
+    <meta name="keywords" content="таймер онлайн прямого обратного отсчета времени бесплатно простой звук сигнал спорт табата упражнения засекать кухонный спортивный" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="yandex-verification" content="52b7b435553b3751" />
+
+        	<link rel="stylesheet" href="/cache/styles_6aa74a7d572c9ec3e83a3f88c2be5a0f.css" />
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <ul id="links">
+        <li><a href="/">Таймер онлайн</a></li>
+        <li><a href="/sekundomer">Секундомер онлайн</a></li>
+        <li><a href="/budilnik">Онлайн будильник</a></li>
+        <li>
+            <a href="/kalendar-tajmer">Календарь-таймер</a>
+            <ul>
+                <li><a href="/taymer-do-novogo-goda">Сколько осталось до Нового Года</a></li>
+                <li><a href="/taymer-do-zimy">Сколько осталось до Зимы</a></li>
+                <li><a href="/taymer-do-vesny">Сколько осталось до Весны</a></li>
+                <li><a href="/taymer-do-leta">Сколько осталось до Лета</a></li>
+                <li><a href="/taymer-do-oseni">Сколько осталось до Осени</a></li>
+            </ul>
+        </li>
+        <li><a href="/tochnoe-moskovskoe-vremya">Точное московское время</a></li>
+        <li><a href="/metronom">Метроном онлайн</a></li>
+
+        <!-- start mobile menu -->
+        <li class="mobile-menu">
+            <a class="mobile-menu-trigger" href="#">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <ul class="mobile-menu-wrap">
+                <li><a href="/budilnik">Онлайн будильник</a></li>
+                <li>
+                    <a href="/kalendar-tajmer">Календарь-таймер</a>
+                    <ul>
+                        <li><a href="/taymer-do-novogo-goda">Сколько осталось до Нового Года</a></li>
+                        <li><a href="/taymer-do-zimy">Сколько осталось до Зимы</a></li>
+                        <li><a href="/taymer-do-vesny">Сколько осталось до Весны</a></li>
+                        <li><a href="/taymer-do-leta">Сколько осталось до Лета</a></li>
+                        <li><a href="/taymer-do-oseni">Сколько осталось до Осени</a></li>
+                    </ul>
+                </li>
+                <li><a href="/tochnoe-moskovskoe-vremya">Точное московское время</a></li>
+                <li><a href="/metronom">Метроном онлайн</a></li>
+            </ul>
+        </li>
+        <!-- end mobile menu -->
+    </ul>
+    <div class="head">
+        <img src="/img/logo/timer.png" alt="онлайн таймер">
+    </div>
+
+    <div class="page-wrap">
+        <div class="content">
+            <div class="citem1"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- timer_ad1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8091271152268111"
+     data-ad-slot="1783485611"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+            <div class="content-main">
+                <h1 id="setTitleH1">Таймер онлайн со звуком</h1>
+                <input id="setTitle" type="text" value="Таймер онлайн со звуком" autocomplete="none"/>
+                <div class="button" id="title-edit-btn">
+                    <a class="save" href="javascript:saveEditTitle();">Сохранить</a>
+                    <a class="cancel" href="javascript:closeEditTitle();">Отменить</a>
+                </div>
+                <div class="timer-sets" id="timer-sets">
+                    <a href="javascript:timerSet(1,false)">+1м</a>
+                    <a href="javascript:timerSet(5,false)">+5м</a>
+                    <a href="javascript:timerSet(10,false)">+10м</a>
+                    <a href="javascript:timerSet(15,false)">+15м</a>
+                    <a href="javascript:timerSet(30,false)">+30м</a>
+                    <a href="javascript:timerSet(60,false)">+1ч</a>
+                    <a class="add" href="javascript:timerShowAdd()">+</a>
+                    <a class="settings" href="javascript:stopHotKeySettings();showModal('modal-settings');"><img src="/img/u39.png" /></a>
+                </div>
+                <div id="timerAddBlock">
+                    <input id="timerAddHour" name="timerAddHour" type="number" max="24" min="0" value="0" required><label>Ч</label>
+                    <input id="timerAddMinute" name="timerAddMinute" type="number" max="60" min="0" value="10" required><label>М</label>
+                    <input id="timerAddSecond" name="timerAddSecond" type="number" max="60" min="0" value="0" required><label>С</label>
+                    <input id="timerAddName" name="timerAddName" type="text" maxlength="10" placeholder="описание" required><label></label>
+                    <a class="addButton" href="javascript:timerSetAdd($('#timerAddHour').val(),$('#timerAddMinute').val(),$('#timerAddSecond').val(),$('#timerAddName').val())">Добавить</a>
+                </div>
+                <div class="timer-container">
+                    <span class="timer" id="timer"><span data-max="101">00</span>:<span data-max="24">00</span>:<span data-max="60">00</span>.00</span>
+                    <div class="timer-edit" id="timer-edit">
+                        <input id="setHour" type="number" value="0" min="0" max="99" autocomplete="none"/><span>:</span>
+                        <input id="setMinute" type="number" value="0" min="0" max="59" autocomplete="none"/><span>:</span>
+                        <input id="setSecond" type="number" value="0" min="0" max="59" autocomplete="none"/><span>.00</span>
+                    </div>
+                    <div class="button" id="timer-edit-btn">
+                        <a class="save" href="javascript:saveEditTime();">Сохранить</a>
+                        <a class="cancel" href="javascript:closeEditTime();">Отменить</a>
+                    </div>
+                </div>
+                <div class="timer-sets">
+                    <a href="javascript:timerSet(1,1)">1 минута</a>
+                    <a href="javascript:timerSet(2,1)">2 минуты</a>
+                    <a href="javascript:timerSet(5,1)">5 минут</a>
+                    <a href="javascript:timerSet(10,1)">10 минут</a>
+                    <a href="javascript:timerSet(15,1)">15 минут</a>
+                    <a href="javascript:timerSet(30,1)">30 минут</a>
+                    <a href="javascript:timerSet(60,1)">60 минут</a>
+                    <a href="javascript:timerSet(120,1)">120 минут</a>
+                </div>
+                <div class="button-block">
+                    <div class="button"><a class="start" id="start" href="javascript:start();"></a></div>
+                    <div class="button"><a class="stop disabled" id="stop" href="javascript:kill();"></a></div>
+                    <div class="button"><a class="refresh" id="refresh" href="javascript:refresh();"></a></div>
+                    <a class="sound max" href="javascript:soundSwitch()"></a>
+                </div>
+                <div class="hotkeys">
+                    <strong>ПРОБЕЛ</strong> - старт/стоп,
+                    <strong>ESC</strong> - обнулить
+                </div>
+            </div>
+            <div class="citem2"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8091271152268111"
+     data-ad-slot="2904995591"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+        </div>
+
+        <div class="citem_mobile1"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- timer_mobile1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8091271152268111"
+     data-ad-slot="7582607207"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<div class="share container">
+    <h3>Поддержи проект, поделись нашим сайтом с друзьями. Спасибо!</h3>
+    <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="https://yastatic.net/share2/share.js"></script>
+    <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,twitter,lj"></div>
+</div>
+        <div class="content-text container">
+            <div class="content-text-left"><div class="citem4" data-sticky-wrap="true"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- timer_ad4 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8091271152268111"
+     data-ad-slot="5339587248"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div>
+            <div class="content-text-center">
+                <div class="citem3"><a href="https://omg-vr.ru" target="_blank"><picture>
+            <source media="(min-width: 900px)" srcset="/img/banner/ad3_970.jpg">
+            <source media="(min-width: 480px)" srcset="/img/banner/ad3_480.jpg">
+            <img src="/img/banner/ad3_336.jpg">
+        </picture></a>
+</div>
+                <div class="article">
+                 <h2>Вас приветствует проект online-timer.ru!</h2>
+<p>На нашем сайте можно бесплатно воспользоваться различными сервисами, связанными со временем: это онлайн-будильник, таймер, секундомер, метроном, онлайн-календарь и служба точного времени.</p>
+<h2>Использование таймера</h2>
+<p>Если в компьютере или мобильном устройстве нет под рукой таймера, можно запустить онлайн-таймер прямо на нашем сайте с монитора ПК.</p>
+<p>Функцию таймера удобно использовать для:</p>
+<ul>
+	<li>домашних тренировок и дозирования физической нагрузки;</li>
+	<li>при работе над какими-либо задачами;</li>
+	<li>при приготовлении кулинарных блюд, где важно строго придерживаться рецептуры;</li>
+	<li>актуален данный сервис для спортсменов - благодаря таймеру можно засекать определенные промежутки времени для эффективного выполнения упражнения.</li>
+</ul>
+<p>Онлайн таймер со звуком &ndash; удобный сервис, который круглосуточно под рукой. Пользуясь любым браузером, можно настроить таймер в онлайн-режиме без необходимости загружать программу для компьютера или гаджета. Запрограммированный таймер на нашем сайте позволит выставить время от секунды и дольше - верхний предел отсутствует.</p>
+<h2>Краткая история таймера</h2>
+<p>Таймер &ndash; это специальное устройство, назначением которого является обратный отсчет времени. Механизм действия основан на секундном шаге и шкале времени. Пользуясь интуитивно понятной шкалой, можно выставить необходимые показатели время, по прошествии которого обычно подается сигнал и прибор останавливается.</p>
+<p>Изобретение таймера связано с историей первого секундомера. Английский часовщик Клемент в 1676 году открыл систему якорно-анкерного спуска в часах. На оси этого маятника были приспособлены зубцы, которые, попадая в ходовое колесо, запускали механизм. Создание маятникового регулятора Гюйгенса привнесло в работу над секундомерами и таймерами некоторое усовершенствование. Затем на основе механических часов французский мастер Луи Муане в 1815 году занялся исследованиями хронометража времени и возможности запускать отсчет. Результатом его трудов стал первый механический аналог современного таймера. Усовершенствовал таймер английский часовщик Роберт Гук, введя в конструкцию балансирный механизм.</p>
+<ul>
+	<li>Таймеры используют для контроля за системами освещения объектов, витрин, рекламных вывесок, программируют таймер и для дозированной подачи корма и воды в аквариумах и террариумах.</li>
+	<li>Также применяют таймер для правильного и регулярного полива растений, включения и отключения обогревательных систем.</li>
+	<li>На таймер выставлены заводские сигналы и школьные звонки.</li>
+	<li>Используется это устройство для имитации эффекта присутствия. Случается, для защиты дома владельцы оставляют таймеры, включающие свет или радио для предотвращения краж и отпугивания злоумышленников от дома или квартиры.</li>
+	<li>Также таймер управляет различными электроустройствами, системами питания электроприборов.</li>
+</ul>
+<h2>Инструкция пользования онлайн-таймером</h2>
+<p>Чтобы воспользоваться сервисом, необходимо пройти в раздел Таймер-онлайн, нажав соответствующую кнопку. Перед вами возникнет окно установки времени. Необходимо выбрать либо ввести вручную требуемое количество минут (1, 2, 5, 10, 15, 30, 60, 120) и секунд. Далее стоит нажать зеленую кнопку, и обратный таймер времени будет запущен.</p>
+<p>При необходимости можно легко остановить отсчет времени, нажав красную кнопку. Либо установить таймер снова, сбросив предыдущие показатели. По истечении установленного ранее времени прозвучит звуковой сигнал.</p>
+<p>Также можно добавить дополнительное время &ndash; над цифрами таймера есть кнопки от &laquo;+1 минута&raquo; до &laquo;+1 час&raquo;.</p>
+<h2>Функции онлайн-таймера</h2>
+<ul>
+	<li>Звуковой сигнал необходим, если у вас нет возможности в процессе тренировки, решения задач, приготовления блюд смотреть на экран и отслеживать точный отсчет.</li>
+	<li>Онлайн-таймер может быть использован при необходимости как встроенный будильник.</li>
+	<li>Также можно пользоваться таймером, если нужно замерить частоту пульса в течение нескольких минут.</li>
+	<li>Важна функция таймера как напоминание о необходимости выключить чайник, завершить какую-либо задачу, принять лекарство.</li>
+	<li>С помощью таймера будут корректными результаты мини-соревнований &ndash; например, в детских играх, при сборе головоломки, для развлечений на семейном празднике.</li>
+</ul>
+<p>Пользуясь сервисами нашего сайта, вы всегда будете эффективно использовать главный ресурс своей жизни &ndash; время! С нами легко успевать вовремя, знать точное время, держать под рукой секундомер!</p>
+
+                  </div>
+            </div>
+            <div class="content-text-right"><div class="citem5" data-sticky-wrap="true"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- timer_ad5 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8091271152268111"
+     data-ad-slot="4026505573"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div>
+        </div>
+
+    </div>
+
+    <div class="modal-overlay" id="modal-settings">
+        <div class="modal">
+            <a class="close-modal" onclick="startHotKeySettings();modalClose()">
+                <svg viewBox="0 0 20 20">
+                    <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                </svg>
+            </a><!-- close modal -->
+            <div class="modal-content modal-content-settings">
+                <h3>Настройки таймера</h3>
+                <div class="modal-item">
+                    <p>Выбор звука</p>
+                    <div class="select-wrapper">
+                        <select name="sound" autocomplete="off">
+                            <option value="1" selected>Классический</option>
+                            <option value="2">Настенные часы</option>
+                            <option value="3">Петух</option>
+                            <option value="4">Приятный для пробуждения</option>
+                            <option value="5">Радиочасы</option>
+                            <option value="6">Советский</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-item">
+                    <label><input type="checkbox" name="repeat" autocomplete="off" /> Повторять (зациклить) таймер с паузой</label>
+                    <br/>
+                    <br/>
+                    <div style="display: flex;justify-content: space-evenly;">
+                        <div style="text-align: center;">
+                            сек<br/>
+                            <input name="repeat_sec" type="number" value="0" autocomplete="off" style="width: 70px;text-align: center;">
+                        </div>
+                        <div style="text-align: center;">
+                            мин<br/>
+                            <input name="repeat_min" type="number" value="0" autocomplete="off" style="width: 70px;text-align: center;">
+                        </div>
+                        <div style="text-align: center;">
+                            час<br/>
+                            <input name="repeat_h" type="number" value="0" autocomplete="off" style="width: 70px;text-align: center;">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-item">
+                    <label><input type="checkbox" name="replay" autocomplete="off" /> Звонить, пока не нажата кнопка стоп</label>
+                </div>
+                <div class="modal-item-btn">
+                    <a class="btn" onclick="saveSettings();startHotKeySettings();modalClose();return false;">Сохранить и закрыть</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="citem_mobile2"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8091271152268111"
+     data-ad-slot="4105067637"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<div class="footer-links container">
+    <ul>
+        <li><a href="/sitemap">Карта сайта</a></li>
+        <li><a href="/kontakty">Обратная связь</a></li>
+        <li><a href="/privacy-policy">Политика конфиденциальности</a></li>
+    </ul>
+</div>
+
+
+<div class="footer">
+            Copyright © Online-Timer.ru 2015–2021. All rights reserved.
+    </div>
+</div>
+
+
+
+	<script src="/cache/scripts_471d27dcadc9d16a58c2308ba912ddc2.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(28251366, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/28251366" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
